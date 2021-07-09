@@ -1,12 +1,3 @@
-<img src="assets/deepsea_wide_tr_an.gif" align="center" width="100%" />
-<p align="center">
-    The new All-in-One CFW package for the Nintendo Switch.</br>
-    <a href="https://discord.gg/VkaRjYN">
-        <img alt="Discord" src="https://img.shields.io/discord/703301751171973190?label=Join%20DeepSea%20on%20Discord">
-    </a> 
-    <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/Team-Neptune/DeepSea/total?label=Total%20downloads">
-    <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/Team-Neptune/DeepSea/BuildRelease?label=Build">
-</p>
 
 ---
 
@@ -67,5 +58,5 @@ Send the Hekate payload to your Switch in RCM mode and launch the CFW
 
 
 ## Credits
-* Thanks to all the previous members of Team AtlasNX for laying the groundwork for DeepSea.
+* Thanks to all the previous members of Team AtlasNX and Team Neptune for laying the groundwork for BeanNX.
 * And a huge thanks to all the awesome homebrew developers!
