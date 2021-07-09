@@ -1,4 +1,4 @@
-
+please dont actually use this on your switch i dont want to be killed by slluxx
 ---
 
 ## Features
