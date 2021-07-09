@@ -5,9 +5,9 @@ from distutils.dir_util import copy_tree
 
 if __name__ == '__main__':
     
-    parser = argparse.ArgumentParser(description="TeamNeptune's DeepSea build script, not reused for BeanNX.")
+    parser = argparse.ArgumentParser(description="TeamNeptune's DeepSea build script, now reused for BeanNX.")
     requiredNamed = parser.add_argument_group('Options required to build a release candidate')
-    requiredNamed.add_argument('-v', '--version', help='DeepSea version tag', required=True)
+    requiredNamed.add_argument('-v', '--version', help='BeanNX version tag', required=True)
     requiredNamed.add_argument('-gt', '--githubToken', help='Github Token', required=True)
     args = parser.parse_args()
 
