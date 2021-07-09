@@ -5,7 +5,7 @@ from distutils.dir_util import copy_tree
 
 if __name__ == '__main__':
     
-    parser = argparse.ArgumentParser(description="TeamNeptune's DeepSea build script.")
+    parser = argparse.ArgumentParser(description="TeamNeptune's DeepSea build script, not reused for BeanNX.")
     requiredNamed = parser.add_argument_group('Options required to build a release candidate')
     requiredNamed.add_argument('-v', '--version', help='DeepSea version tag', required=True)
     requiredNamed.add_argument('-gt', '--githubToken', help='Github Token', required=True)
@@ -76,8 +76,8 @@ if __name__ == '__main__':
                 else:
                     print("module file does not exist")
 
-            print("Zipping package: " + "deepsea-"+packageName+"_v"+settings["version"])
-            shutil.make_archive("deepsea-"+packageName+"_v"+settings["version"],'zip',outPath)
+            print("Zipping package: " + "beannx-"+packageName+"_v"+settings["version"])
+            shutil.make_archive("beannx-"+packageName+"_v"+settings["version"],'zip',outPath)
             fs.delete("",outPath)
 
         else:
